@@ -9,7 +9,7 @@ def load_data(file):
 
 def main():
     st.set_page_config(page_title='Graphs by Streamlit', page_icon=':bar_chart:')
-
+    st.subheader('_By:_ Zulfiqar :blue[Ahmed] :sunglasses:')
     # Add title and description
     st.title('Graphs by Streamlit')
     st.write("This page allows you to create graphs based on the selected chart type.")
